@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+    body {
+        background-image: url("../img/bg.png");
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .wrapper {
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(100px);
+        border:solid;
+        border-radius: 20px;
+        border-width: 1px;
+        color: rgb(0, 0, 0);
+        padding: 30px;
+        width: 600px;
+        height: 600px;
+    }
+    .header {
+        margin: auto;           
+        width: 350px;
+        justify-content: center;
+        padding: 20px;
+        font-size: 40px;
+        font-family: monospace;
+        color: black;
+    }
+    .input-suhu {
+        margin: auto;
+        width: 500px;
+        height: 180px;
+    }
+    .input-suhu input {
+        display: flex;
+        text-align: center;
+        width: 100%;;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.351);
+        border:groove ;
+        border-color: rgb(99, 99, 99);
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
+    .input-suhu p{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+    }
+    .button {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .button #konversi {
+        background-color: rgb(9, 2, 70);
+        border: inset;
+        border-color: rgb(9, 2, 70);
+        border-radius: 15px;
+        height: 60px;
+        width: 140px;
+        font-size: 20px;
+        font-weight:bold;
+        font-family: monospace;
+        color: rgb(244, 246, 239);
+        cursor: pointer;
+        transition: 0.4s;
+        
+    }
+    .button #konversi:hover {
+        background-color: rgb(9, 2, 70);
+    }
+   
+    .button #reset {
+        background-color: rgb(148, 0, 0);
+        border: inset;
+        border-color:  rgb(148, 0, 0);
+        border-radius: 15px;
+        height: 60px;
+        width: 140px;
+        font-size: 20px;
+        font-weight:bold;
+        font-family: monospace;
+        color: rgb(251, 247, 247);
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    .button #reset:hover {
+        background-color:  rgb(148, 0, 0);
+    }
+  
+    .button #reverse {
+        background-color: rgb(0, 182, 198);
+        border: inset;
+        border-color: rgb(0, 182, 198);
+        border-radius: 15px;
+        height: 60px;
+        width: 140px;
+        font-size: 20px;
+        font-weight:bold;
+        font-family: monospace;
+        color: rgb(254, 255, 255);
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    .button #reverse:hover {
+        background-color: rgb(0, 182, 198);
+    }
+
+    .kalkulasi p{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+    }
+    .kalkulasi input {
+        display: flex;
+        margin: auto;
+        text-align: center;
+        width: 500px;;
+        height: 100px;
+        background-color: rgba(255, 255, 255, 0.351);
+        border:groove ;
+        border-color: rgb(99, 99, 99);
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
